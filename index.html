@@ -11,7 +11,9 @@
 
 <body>
   <div id="container-global">
+
     <div id="container-menu">
+      <div id="debugZone"></div>
       <div id="player-menu">
         <div id="player-box">Ginette
           <div id="player-box-controls">1200 pts</div>
@@ -33,128 +35,131 @@
         </div>
       </div>
       <div id="controls-menu">controls
+        <div id="diceZone">
+
+        </div><span id="diceResult"></span>
       </div>
     </div>
     <div id="container-boxes">
-      <div class="box" id="9">9</div>
-      <div class="box" id="10">10</div>
-      <div class="box" id="11">11</div>
+      <div class="box" id="9"><span class="boxNumber">9</span></div>
+      <div class="box" id="10"><span class="boxNumber">10</span></div>
+      <div class="box" id="11"><span class="boxNumber">11</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="31">31</div>
-      <div class="box" id="32">32</div>
-      <div class="box" id="33">33</div>
+      <div class="box" id="31"><span class="boxNumber">31</span></div>
+      <div class="box" id="32"><span class="boxNumber">32</span></div>
+      <div class="box" id="33"><span class="boxNumber">33</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="53">53</div>
-      <div class="box" id="54">54</div>
-      <div class="box" id="55">55</div>
-      <div class="box" id="8">8</div>
+      <div class="box" id="53"><span class="boxNumber">53</span></div>
+      <div class="box" id="54"><span class="boxNumber">54</span></div>
+      <div class="box" id="55"><span class="boxNumber">55</span></div>
+      <div class="box" id="8"><span class="boxNumber">8</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="12">12</div>
+      <div class="box" id="12"><span class="boxNumber">12</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="30">30</div>
+      <div class="box" id="30"><span class="boxNumber">30</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="34">34</div>
+      <div class="box" id="34"><span class="boxNumber">34</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="52">52</div>
+      <div class="box" id="52"><span class="boxNumber">52</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="56">56</div>
-      <div class="box" id="7">7</div>
+      <div class="box" id="56"><span class="boxNumber">56</span></div>
+      <div class="box" id="7"><span class="boxNumber">7</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="13">13</div>
+      <div class="box" id="13"><span class="boxNumber">13</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="29">29</div>
+      <div class="box" id="29"><span class="boxNumber">29</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="35">35</div>
+      <div class="box" id="35"><span class="boxNumber">35</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="51">51</div>
+      <div class="box" id="51"><span class="boxNumber">51</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="57">57</div>
-      <div class="box" id="6">6</div>
+      <div class="box" id="57"><span class="boxNumber">57</span></div>
+      <div class="box" id="6"><span class="boxNumber">6</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="14">14</div>
+      <div class="box" id="14"><span class="boxNumber">14</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="28">28</div>
+      <div class="box" id="28"><span class="boxNumber">28</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="36">36</div>
+      <div class="box" id="36"><span class="boxNumber">36</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="50">50</div>
+      <div class="box" id="50"><span class="boxNumber">50</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="58">58</div>
-      <div class="box" id="5">5</div>
+      <div class="box" id="58"><span class="boxNumber">58</span></div>
+      <div class="box" id="5"><span class="boxNumber">5</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="15">15</div>
+      <div class="box" id="15"><span class="boxNumber">15</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="27">27</div>
+      <div class="box" id="27"><span class="boxNumber">27</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="37">37</div>
+      <div class="box" id="37"><span class="boxNumber">37</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="49">49</div>
+      <div class="box" id="49"><span class="boxNumber">49</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="59">59</div>
-      <div class="box" id="4">4</div>
+      <div class="box" id="59"><span class="boxNumber">59</span></div>
+      <div class="box" id="4"><span class="boxNumber">4</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="16">16</div>
+      <div class="box" id="16"><span class="boxNumber">16</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="26">26</div>
+      <div class="box" id="26"><span class="boxNumber">26</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="38">38</div>
+      <div class="box" id="38"><span class="boxNumber">38</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="48">48</div>
+      <div class="box" id="48"><span class="boxNumber">48</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="60">60</div>
-      <div class="box" id="3">3</div>
+      <div class="box" id="60"><span class="boxNumber">60</span></div>
+      <div class="box" id="3"><span class="boxNumber">3</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="17">17</div>
+      <div class="box" id="17"><span class="boxNumber">17</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="25">25</div>
+      <div class="box" id="25"><span class="boxNumber">25</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="39">39</div>
+      <div class="box" id="39"><span class="boxNumber">39</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="47">47</div>
+      <div class="box" id="47"><span class="boxNumber">47</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="61">61</div>
-      <div class="box" id="2">2</div>
+      <div class="box" id="61"><span class="boxNumber">61</span></div>
+      <div class="box" id="2"><span class="boxNumber">2</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="18">18</div>
+      <div class="box" id="18"><span class="boxNumber">18</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="24">24</div>
+      <div class="box" id="24"><span class="boxNumber">24</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="40">40</div>
+      <div class="box" id="40"><span class="boxNumber">40</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="46">46</div>
+      <div class="box" id="46"><span class="boxNumber">46</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="62">62</div>
-      <div class="box" id="1">1</div>
+      <div class="box" id="62"><span class="boxNumber">62</span></div>
+      <div class="box" id="1"><span class="boxNumber">1</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="19">19</div>
+      <div class="box" id="19"><span class="boxNumber">19</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="23">23</div>
+      <div class="box" id="23"><span class="boxNumber">23</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="41">41</div>
+      <div class="box" id="41"><span class="boxNumber">41</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="45">45</div>
+      <div class="box" id="45"><span class="boxNumber">45</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="63">63</div>
+      <div class="box" id="63"><span class="boxNumber">63</span></div>
       <div class="startbox">
-        <div class="startboxtop">
-          <div class="pion black"></div>
-          <div class="pion red"></div>
-          <div class="pion blue"></div>
+        <div id="0" class="startboxtop">
+          <div id="player1" class="pion black"></div>
+          <div id="player2" class="pion red"></div>
+          <div id="player3" class="pion blue"></div>
         </div>
-        <div class="startboxbottom">
-          <div class="pion orange"></div>
-          <div class="pion green"></div>
-          <div class="pion yellow"></div>
+        <div id="0" class="startboxbottom">
+          <div id="player4" class="pion orange"></div>
+          <div id="player5" class="pion green"></div>
+          <div id="player6" class="pion yellow"></div>
         </div>
       </div>
       <div class="box empty">x</div>
-      <div class="box" id="20">20</div>
-      <div class="box" id="21">21</div>
-      <div class="box" id="22">22</div>
+      <div class="box" id="20"><span class="boxNumber">20</span></div>
+      <div class="box" id="21"><span class="boxNumber">21</span></div>
+      <div class="box" id="22"><span class="boxNumber">22</span></div>
       <div class="box empty">x</div>
-      <div class="box" id="42">42</div>
-      <div class="box" id="43">43</div>
-      <div class="box" id="44">44</div>
+      <div class="box" id="42"><span class="boxNumber">42</span></div>
+      <div class="box" id="43"><span class="boxNumber">43</span></div>
+      <div class="box" id="44"><span class="boxNumber">44</span></div>
       <div class="box empty">x</div>
       <div class="box empty">x</div>
     </div>
