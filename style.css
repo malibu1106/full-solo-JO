@@ -68,9 +68,59 @@ h1 {
   width: 9.09%;
   height: 10%;
   border-radius: 8px;
-  font-size: 32px;
+  font-size: 26px;
   box-shadow: 2px 2px 10px black;
   background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pion {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.black {
+  background: black;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.orange {
+  background: orange;
+}
+
+.blue {
+  background: blue;
+}
+
+.startbox {
+  width: 9.09%;
+  height: 10%;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.startboxtop,
+.startboxbottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .empty {
